@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz: Dental Caries Prevention</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<header>
+    <h1>Quiz: Dental Caries Prevention</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="article1.html">Articles</a>
+    </nav>
+</header>
+
+<main>
+    <form id="quizForm">
+        <div class="question">
+            <p>1. What is the main cause of dental caries?</p>
+            <label><input type="radio" name="q1" value="a"> Genetics</label><br>
+            <label><input type="radio" name="q1" value="b"> Bacterial activity in plaque</label><br>
+            <label><input type="radio" name="q1" value="c"> Tooth brushing too often</label>
+        </div>
+
+        <div class="question">
+            <p>2. Which substance helps prevent tooth decay?</p>
+            <label><input type="radio" name="q2" value="a"> Fluoride</label><br>
+            <label><input type="radio" name="q2" value="b"> Sugar</label><br>
+            <label><input type="radio" name="q2" value="c"> Coffee</label>
+        </div>
+
+        <button type="button" onclick="checkQuiz()">Submit</button>
+    </form>
+
+    <div id="result"></div>
+</main>
+
+<footer>
+    <p>© 2025 Stomatology Edu</p>
+</footer>
+</body>
+</html>
